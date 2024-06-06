@@ -1,0 +1,16 @@
+<!-- <div class="carousel">
+  <div class="slide" *ngFor="let slide of slides">
+    <img [src]="slides[currentSlideIndex]" alt="Slide" />
+  </div>
+</div>
+<button (click)="prevSlide()">Previous</button>
+<button (click)="nextSlide()">Next</button> -->
+<div class="slider-container">
+  <div class="slider" [style.transform]="'translateX(' + -currentSlide * 100 + '%)'">
+    <div class="slide" *ngFor="let slide of slides">
+      <img [src]="currentSlide" alt="Image Slide">
+    </div>
+  </div>
+  <button (click)="nextSlide()">Next</button>
+  <button (click)="prevSlide()">Previous</button>
+</div>

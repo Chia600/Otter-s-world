@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to right, purple, rgb(170, 213, 248));
+    margin: 5% auto ;
+    
+}
+
+.mat-mdc-form-field {
+    width: 100%;
+    margin: 15%;
+    display: flex !important;
+    /* Adjust width as needed */
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    /* Adjust spacing as needed */
+}
+
+a button {
+    width: 100%;
+    margin: 15%;
+    display: flex !important;
+}
+.register {
+    margin-left: 10%;
+}

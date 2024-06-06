@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    background-image: linear-gradient(to right, purple, rgb(170, 213, 248));
+    margin: 5% auto;
+
+}
+

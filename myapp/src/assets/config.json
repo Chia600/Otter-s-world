@@ -1,0 +1,16 @@
+{
+  "errorMessages": {
+    "email": {
+      "required": "Email is required",
+      "invalidFormat": "Invalid email format",
+      "alreadyExists": "Email already exists"
+    },
+    "password": {
+      "required": "Password is required"
+    },
+    "confirmPassword": {
+      "required": "Password confirmation is required",
+      "mismatch": "Passwords do not match"
+    }
+  }
+}

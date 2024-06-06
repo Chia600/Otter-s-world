@@ -1,0 +1,62 @@
+/* Apply styles to the toolbar */
+.mat-toolbar {
+    background-image: linear-gradient(to right, purple, rgb(170, 213, 248));;
+    /* Material Design primary color */
+    color: white;
+    /* Text color */
+    height: 64px;
+    /* Set the height of the toolbar */
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    padding: 0 16px;
+    /* Add padding to the toolbar */
+}
+
+/* Apply styles to the logo */
+.mat-toolbar span {
+    font-size: 1.5rem;
+    /* Adjust font size as needed */
+    margin-right: 16px;
+    /* Add space between logo and links */
+}
+
+/* Apply styles to the links */
+.mat-toolbar a {
+    color: white;
+    /* Link text color */
+    text-decoration: none;
+    /* Remove underline */
+    margin: 0 8px;
+    /* Add space around links */
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+/* Apply styles to the active link */
+.mat-toolbar a.active {
+    font-weight: bold;
+    /* Bold font for active link */
+}
+
+/* Apply styles on hover */
+.mat-toolbar a:hover {
+    color: #FFEB3B;
+    /* Change color on hover */
+}
+
+.mat-toolbar a.connexion{
+    text-align: right;
+    /* display:flex; */
+    margin:70%;
+    /* float: right; */
+}
+img{
+    float: left;
+    margin: 0px 15px 0 0px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color:blueviolet;
+}

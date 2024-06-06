@@ -1,0 +1,30 @@
+
+.container {
+    display: grid;
+    background-color: white;
+    grid-template-columns: [first] 160px [contenu] 1fr;
+    /* grid-template-rows: []; */
+    column-gap: 20px;
+    /* Espacement entre les colonnes */
+    align-items: center;
+    /* Pour aligner les composants verticalement */
+    grid-template-areas: 
+    "sd main"
+    "sd content"
+    "sd content";
+    
+}
+.container:nth-child(2){
+    grid-template-rows: 200px;
+    
+}
+.sidebar{
+    grid-area: sd;
+}
+.main{
+    grid-area: main;
+}
+.content{
+    grid-area: content;
+    background-image:linear-gradient(to right, purple, rgb(170, 213, 248));
+}

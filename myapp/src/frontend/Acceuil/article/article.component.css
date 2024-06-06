@@ -1,0 +1,60 @@
+/* Styles CSS pour le composant mat-card */
+
+.card {
+    width: 300px;
+    margin: 20px;
+}
+
+.header-image {
+    background-image: url('../../../assets/img/shiba-meme-pp.jpg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mat-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.mat-card-title {
+    margin-left: 10px;
+}
+
+.mat-card-subtitle {
+    margin-left: 10px;
+}
+
+.mat-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.mat-card-content {
+    padding: 15px;
+}
+
+.mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.mat-card-actions button {
+    margin-left: 10px;
+}
+
+.mat-mdc-card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #39434abb;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+        
+}
